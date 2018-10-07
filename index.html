@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculator</title>
+    <title>Calculator- By Anit Kumar</title>
+    <link href="./Images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="./Css/mystyle.css" type="text/css">
+    <script src="./Javascript/Myscript.js" ></script>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    
+    <div class="main-container">
+            <form name="cal" class="cal-form">
+                    <input type="text" name="answer" class="textview"/>
+                    <table>
+                        <tr>
+                            <td><input class="button" type="button" value="1" onclick="compute(1)"></td>
+                            <td><input class="button" type="button" value="2" onclick="compute(2)"></td>
+                            <td><input class="button" type="button" value="3" onclick="compute(3)"></td>
+                            <td><input class="button" type="button" value="c" onclick="clean()"></td>
+                            <td><input class="button" type="button" value="del" onclick="back()"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="button" type="button" value="4" onclick="compute(4)"></td>
+                            <td><input class="button" type="button" value="5" onclick="compute(5)"></td>
+                            <td><input class="button" type="button" value="6" onclick="compute(6)"></td>
+                            <td><input class="button" type="button" value="+" onclick="compute('+')"></td>
+                            <td><input class="button" type="button" value="-" onclick="compute('-')"></td>
+                            </tr>
+                        <tr>
+                            <td><input class="button" type="button" value="7" onclick="compute(7)"></td>
+                            <td><input class="button" type="button" value="8" onclick="compute(8)"></td>
+                            <td><input class="button" type="button" value="9" onclick="compute(9)"></td>
+                            <td><input class="button" type="button" value="x" onclick="compute('*')"></td>
+                            <td><input class="button" type="button" value="/" onclick="compute('/')"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="button" type="button" value="." onclick="compute('.')"></td>
+                            <td><input class="button" type="button" value="0" onclick="compute(0)"></td>
+                            <td colspan="3"><input class="button" type="button" value="=" style="width:213px;" onclick="equal()"></td> 
+                        </tr>
+                    </table>
+                </form>
+    </div>
 </body>
 </html>

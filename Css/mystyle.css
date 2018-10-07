@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   background:linear-gradient(rgba(0,23,01,0.7),rgba(13,32,244,0.7)), url('../Images/bg.jpg');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+.main-container{  
+   /* position: absolute; */
+   width:50%;
+   /* top:30%; */
+   /* left: 40%; */
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: center;
+   padding: 90px 0;
+}
+.cal-form{
+   width:53%;
+   /* margin-left: auto; */
+   /* margin-right: auto; */
+   padding: 20px;
+   border:5px solid dodgerblue;
+}
+.button{
+    width: 3.5em;
+    height: 3.5em;
+    font-size: 20px;
+}
+.textview{
+    width: 98%;
+    height: 20%;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 3px;
+    /* border:none; */
+}
